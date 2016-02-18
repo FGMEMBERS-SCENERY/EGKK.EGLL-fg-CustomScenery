@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>EGLL-T5.ac</path>
+
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <object-name>walls-roof</object-name> 
+</effect>
+
+
+</PropertyList>
