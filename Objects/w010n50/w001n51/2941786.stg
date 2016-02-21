@@ -367,6 +367,25 @@ OBJECT_SHARED Models/Misc/apronworker2.xml -0.48618396 51.47027392 21.8716 0.0 0
 OBJECT_STATIC w010n50_w001n51_2941786roads0002.ac -0.46405 51.48735 25.90 0
 OBJECT_SHARED Models/Aircraft/A321-iberia.ac -0.48593545 51.47398876 22.0127 93.4 0.0 -0.0
 OBJECT_SHARED Models/Aircraft/B747-ba.ac -0.48632398 51.47309422 21.9860 181.3 0.0 -0.0
+#jetways just for testing - will be converted to AI jetways later
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48870590 51.47383339 21.9190 192.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48933045 51.47398950 21.9044 192.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48808463 51.47384733 21.9337 192.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48728529 51.47382104 21.9608 192.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48624589 51.47386164 22.0058 104.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48624754 51.47346150 21.9560 104.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48624739 51.47297546 21.9040 104.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48625422 51.47257623 21.8779 104.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48625071 51.47218643 21.8546 104.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48624359 51.47169237 21.8454 104.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48624275 51.47100834 21.8480 104.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48625178 51.47032661 21.8702 104.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48624255 51.46966230 21.9051 104.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48611329 51.46937508 21.9305 356.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48679323 51.46941661 21.9045 356.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48748357 51.46941338 21.8837 356.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48820049 51.46941418 21.8638 356.0 0.0 -0.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway.xml -0.48898930 51.46933516 21.8450 356.0 0.0 -0.0
 
 # in the tower
 OBJECT_SHARED Models/Misc/apronworker1.xml -0.46555385 51.47185119 106.3600 0.0 0.0 -0.0
