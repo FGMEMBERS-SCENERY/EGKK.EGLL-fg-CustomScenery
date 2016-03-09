@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+ <path>w010n50_w001n51_2941786roads0002.ac</path>
+ <animation>
+  <object-name>Plane</object-name>
+  <enable-hot type="bool">false</enable-hot>
+ </animation>
+</PropertyList>
+    
+    

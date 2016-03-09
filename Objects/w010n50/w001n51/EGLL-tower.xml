@@ -4,6 +4,28 @@
 
  <path>EGLL-tower.ac</path>
 
+
+<animation>
+<type>shader</type>
+<shader>chrome</shader>
+<texture>chrome1.png</texture>
+
+<object-name>windows.001</object-name>
+<object-name>roof-window</object-name>
+ 
+</animation>
+
+
+
+<!--
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <object-name>windows.001</object-name>
+ <object-name>roof-window</object-name>
+ 
+</effect>
+-->
+
  <nasal>
   <load>
     loop_id = 0;
@@ -17,11 +39,12 @@
 					state = 'vor';
 					});
 
-	var timer2 = maketimer(0.1, func(){ 
+	var timer2 = maketimer(1, func(){ 
 					#print('train 1 going back');
 					setprop("/models/static/EGLL_tower_richt", 'rueck');
 					state = 'rueck';
 					});
+				
 
     train_pos = func
                {
@@ -29,11 +52,11 @@
                state = getprop("/models/static/EGLL_tower_richt");
                if (state == 'vor')
                  {
-                 x = x + 1;
+                 x = x + 0.1;
                  }
                if (state == 'rueck') 
                  {
-                 x = x - 1;
+                 x = x - 0.1;
                  }
                  
                if (x > 75)
@@ -68,7 +91,7 @@
            {
            train_pos();
            id == loop_id or return;
-           settimer(func { loop(id) }, 0.05);
+           settimer(func { loop(id) }, 0.01);
            }
 
     loop(loop_id += 1);
@@ -82,6 +105,8 @@
  </nasal>
 
 
+
+
  <animation>
   <type>translate</type>
   <object-name>external-lift</object-name>
@@ -92,6 +117,81 @@
    <z>1</z>
   </axis>
  </animation>
+
+  <model>
+                <name>obst_top_red01</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m>6.6</x-m>
+                  <y-m>3.14</y-m>
+                  <z-m>89.44</z-m>
+                  <pitch-deg> 0.00</pitch-deg>
+                  <heading-deg>0.0 </heading-deg>
+                </offsets>
+        </model>
+
+    <model>
+                <name>obst_top_red02</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m>-6.26</x-m>
+                  <y-m>3.67</y-m>
+                  <z-m>89.44</z-m>
+                  <pitch-deg> 0.00</pitch-deg>
+                  <heading-deg>0.0 </heading-deg>
+                </offsets>
+        </model>
+
+    <model>
+                <name>obst_top_red03</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m>0.0</x-m>
+                  <y-m>-7.36</y-m>
+                  <z-m>89.44</z-m>
+                  <pitch-deg> 0.00</pitch-deg>
+                  <heading-deg>0.0 </heading-deg>
+                </offsets>
+        </model>
+
+   
+ <model>
+                <name>obst_low_red01</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m>0</x-m>
+                  <y-m>-8.1</y-m>
+                  <z-m>75.46</z-m>
+                  <pitch-deg> 0.00</pitch-deg>
+                  <heading-deg>0.0 </heading-deg>
+                </offsets>
+        </model>
+
+    <model>
+                <name>obst_low_red02</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m>-6.9</x-m>
+                  <y-m>4.06</y-m>
+                  <z-m>75.46</z-m>
+                  <pitch-deg> 0.00</pitch-deg>
+                  <heading-deg>0.0 </heading-deg>
+                </offsets>
+        </model>
+
+    <model>
+                <name>obst_low_red03</name>
+                <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+                <offsets>
+                  <x-m>7.25</x-m>
+                  <y-m>3.47</y-m>
+                  <z-m>75.46</z-m>
+                  <pitch-deg> 0.00</pitch-deg>
+                  <heading-deg>0.0 </heading-deg>
+                </offsets>
+        </model>
+
+
 
  
 
